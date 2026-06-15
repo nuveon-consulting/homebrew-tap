@@ -1,27 +1,27 @@
 class ReversiTerm < Formula
   desc "Terminal client for the Reversi game server"
   homepage "https://github.com/nuveon-consulting/homebrew-tap"
-  version "1.0.0-88"
+  version "1.0.0-89"
 
   on_macos do
     on_arm do
-      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-88/reversi-term-1.0.0-88-osx-arm64.tar.gz"
-      sha256 "5a17450d197c5e08f16442e2a383abc39c2717e57ae373499b59c6ed2a0f92da"
+      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-89/reversi-term-1.0.0-89-osx-arm64.tar.gz"
+      sha256 "f7abe36ca381602e3c1b41f08e031ca00c07430d935b3ebbe97ff02d7097afe5"
     end
     on_intel do
-      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-88/reversi-term-1.0.0-88-osx-x64.tar.gz"
-      sha256 "1000d9967b2e50660cd1499de9dbaf7f566d8d57c5339cc0015ac8f27f532ddd"
+      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-89/reversi-term-1.0.0-89-osx-x64.tar.gz"
+      sha256 "b0470ede5ee13d1753352caa5dad41ffca5afeda60965d53af812e9d4eef7e02"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-88/reversi-term-1.0.0-88-linux-arm64.tar.gz"
-      sha256 "4486127d876c2ca6897aa8c6e2c41959f3c2573c4b14650f0577e0dc714ea5ae"
+      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-89/reversi-term-1.0.0-89-linux-arm64.tar.gz"
+      sha256 "b8908ba6f83b45bef2a0671f94381decb51956f0fc504c2be016695b8772317d"
     end
     on_intel do
-      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-88/reversi-term-1.0.0-88-linux-x64.tar.gz"
-      sha256 "d70575a54e8baff1323b3e6767145141af3a72ed117ce6b50d7d3eef6241129d"
+      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-89/reversi-term-1.0.0-89-linux-x64.tar.gz"
+      sha256 "b6277b7e54734b17990e15f619277d173ef3a1c11db55750f5b47d28f0fcd204"
     end
   end
 
