@@ -1,27 +1,27 @@
 class ReversiTerm < Formula
   desc "Terminal client for the Reversi game server"
-  homepage "https://github.com/nuveon-consulting/reversi"
-  version "1.0.0-85"
+  homepage "https://github.com/nuveon-consulting/homebrew-tap"
+  version "1.0.0-88"
 
   on_macos do
     on_arm do
-      url "https://github.com/nuveon-consulting/reversi/releases/download/v1.0.0-85/reversi-term-1.0.0-85-osx-arm64.tar.gz"
-      sha256 "0dc2151cc1f446821a145be53cd7cda026609b832645a7529bc32cb3da56b6ae"
+      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-88/reversi-term-1.0.0-88-osx-arm64.tar.gz"
+      sha256 "5a17450d197c5e08f16442e2a383abc39c2717e57ae373499b59c6ed2a0f92da"
     end
     on_intel do
-      url "https://github.com/nuveon-consulting/reversi/releases/download/v1.0.0-85/reversi-term-1.0.0-85-osx-x64.tar.gz"
-      sha256 "821f976c04a6f3ba0adce748f2caf9490e66eb6994ba31c97cf7dd3503e61e5f"
+      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-88/reversi-term-1.0.0-88-osx-x64.tar.gz"
+      sha256 "1000d9967b2e50660cd1499de9dbaf7f566d8d57c5339cc0015ac8f27f532ddd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nuveon-consulting/reversi/releases/download/v1.0.0-85/reversi-term-1.0.0-85-linux-arm64.tar.gz"
-      sha256 "0f4af59209e420577eaee6887bfdd11af746899224af2e73a2faecb5ee17f51c"
+      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-88/reversi-term-1.0.0-88-linux-arm64.tar.gz"
+      sha256 "4486127d876c2ca6897aa8c6e2c41959f3c2573c4b14650f0577e0dc714ea5ae"
     end
     on_intel do
-      url "https://github.com/nuveon-consulting/reversi/releases/download/v1.0.0-85/reversi-term-1.0.0-85-linux-x64.tar.gz"
-      sha256 "c8ae2b731aa4aaae072a2a247f8e879b4087d2f4f76a222a6a5809e81afed158"
+      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-88/reversi-term-1.0.0-88-linux-x64.tar.gz"
+      sha256 "d70575a54e8baff1323b3e6767145141af3a72ed117ce6b50d7d3eef6241129d"
     end
   end
 
