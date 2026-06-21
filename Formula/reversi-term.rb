@@ -1,27 +1,27 @@
 class ReversiTerm < Formula
   desc "Terminal client for the Reversi game server"
   homepage "https://github.com/nuveon-consulting/homebrew-tap"
-  version "1.0.0-103"
+  version "1.0.0-104"
 
   on_macos do
     on_arm do
-      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-103/reversi-term-1.0.0-103-osx-arm64.tar.gz"
-      sha256 "5dd7ebf6d44fb3b94ae6d7061dca95df0a81dc94a447ed71852db3395704cbc1"
+      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-104/reversi-term-1.0.0-104-osx-arm64.tar.gz"
+      sha256 "594c4d07c29ae7338281e67e3bbe931eb7c70b1c87db3cae17e526c71fd967e3"
     end
     on_intel do
-      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-103/reversi-term-1.0.0-103-osx-x64.tar.gz"
-      sha256 "522dc38d6b0324a36207ee712e2d5f7221ef91426a126d2eb90bb2fcb242eaf6"
+      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-104/reversi-term-1.0.0-104-osx-x64.tar.gz"
+      sha256 "6330b7bc547716badd2b95cd22f7d2a938d459b43b72a33ec3906ae46d95658a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-103/reversi-term-1.0.0-103-linux-arm64.tar.gz"
-      sha256 "b6e2cf29b5065a3956052b43dfd58c12feb5cb09d2db39bdf9bc5b7b126e0531"
+      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-104/reversi-term-1.0.0-104-linux-arm64.tar.gz"
+      sha256 "1198c2a9141c14bb0c973e5b12414efe074ae68ef5c63cadebaf7490c2c26113"
     end
     on_intel do
-      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-103/reversi-term-1.0.0-103-linux-x64.tar.gz"
-      sha256 "f5ff64cc8aa9bc76aae700da4bb1d065d2acaaf8177c464e5d01e15aa3145b38"
+      url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-104/reversi-term-1.0.0-104-linux-x64.tar.gz"
+      sha256 "61284093dc0a9c153bd00c1d0141ad015720fc3f815cde5695ef4a188ab16bd7"
     end
   end
 
