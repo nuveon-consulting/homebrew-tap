@@ -6,22 +6,22 @@ class ReversiTerm < Formula
   on_macos do
     on_arm do
       url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-117/reversi-term-1.0.0-117-osx-arm64.tar.gz"
-      sha256 "6492baf45ff3cc6107d22a6765e8a4d992bdceee84f862215a409485fe47e798"
+      sha256 "fc63e242cb2b2db38ae089585d47acf0af0dced22c9ef1861f24d562e7f0b249"
     end
     on_intel do
       url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-117/reversi-term-1.0.0-117-osx-x64.tar.gz"
-      sha256 "d3352e5a4b03e4a4cf6845fd9f510febc8e65fb217d97f55b9d90583eb16aa82"
+      sha256 "e8a056a19aa2a36ae0b99e75672ae2aa4beb5bef5eb9ae76b691c12682f4f759"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-117/reversi-term-1.0.0-117-linux-arm64.tar.gz"
-      sha256 "0a620872d112b4538672233a3983cb6a3e66c2bdd810aa808805b30750a483c7"
+      sha256 "9b4bc19b28e68a97f34f98d1f0a5acb569364be0403aa31cdccb6ef4429f1900"
     end
     on_intel do
       url "https://github.com/nuveon-consulting/homebrew-tap/releases/download/v1.0.0-117/reversi-term-1.0.0-117-linux-x64.tar.gz"
-      sha256 "0d364f3132c755ead3dcd03333eb5fd8a67a57b15ba601ce553829764aa1d84a"
+      sha256 "b0476dd613b8857b0caeac4bb6cb055a860c0d3345414070f9ed4a16c1ee56b4"
     end
   end
 
